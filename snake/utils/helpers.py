@@ -1,3 +1,4 @@
+from dataclasses import dataclass
 from typing import Union
 from enum import Enum, auto
 import pygame
@@ -22,9 +23,6 @@ class Direction(Enum):
     RIGHT = auto()
     IDLE = auto()
 
-
-from dataclasses import dataclass
-from enum import Enum, auto
 
 class Difficulty(Enum):
     EASY = 10
